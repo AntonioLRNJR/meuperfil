@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo</title>
+</head>
+<body>
+    <a href="../meuperfil.html">Página principal</a>
+    <h1>Principais formatações</h1>
+    <h2>Negrito / Destaque </h2>
+    <p>Nessa frase, temos um <b>termo em negrito</b> usando a tag B (não semântiga).</p>
+    <p>Nessa frase, temos um <strong>termo em strong</strong> usando a tag STRONG (semântiga).</p>
+
+    <h2>Itálico / Ênfase</h2>
+    <p>Nessa frase, temos um <i>termo em Itálico</i> usando a tag I (não semântiga).</p>
+    <p>nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark1 style="background-color: lime;">um texto marcado</mark1> usando a tag MARK.</p>
+    <p>E no outro parágrafo, temos <mark>outro texto marcado</mark> no final.</p>
+
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marca <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> com a tag U (não semântico).</p>
+
+    <h2>Texto sobrescrito</h2>
+    <p>para inserir coisa do tipo x<sup>20</sup>+3 com a tag SUP.</p>
+
+    <h2>Texto subscrito</h2>
+    <p>para inserir coisa do tipo h<sub>2</sub>0 com a tag SUB.</p>
+
+    <h1>Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever 
+        um parágrafo de qualquer jeito.
+        Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt; <!--LESS THAN(menor que) / GREATER THAN(maior que)-->
+    </p>
+    <p>
+        Se precisar quebrar o texto em algum lugar específico <br> como esse, você pode usa a 
+        tag &lt;br&gt; 
+    </p>
+    <p> Vamos adicionar alguns símbolos especiais: 
+        &reg;
+        &copy;
+        &trade;
+        &euro;
+        &pound;
+        &yen;
+        &cent;
+        &Delta;
+        &uarr;
+    </p>
+    <p>Vamos adicionar alguns emoji:
+        &#x1FAE8;
+        🪂
+    </p>
+
+    <a href="">Esta é uma tag de âncora, usada para especificar o texto que é a "âncora" de um link.</a>
+    <button>Este é um botão.</button>
+
+    <h1>Outro formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em linguagem JavaScript.</p>
+    <pre>
+        <code>
+    num = int(input('Digite um número: '))
+    if num % == 0:
+        print(f'O número {num} é PAR')
+    else:
+        print(f'O número {num é ÍMPAR'})
+    print('fim do programa')
+            <!--para puxar canto da tela: shit+tab
+            num = int(input('Digite um número: '))
+            if num % == 0:
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num é ÍMPAR'})
+            print('fim do programa')*
+            para puxar canto da tela: shit+tab-->
+        </code>
+    </pre>
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+    <h2>Citação completas</h2>
+    <p>Segundo James Williamson, Lucas Longo, no seu livro HTML: Formação Básica:</p>
+    <blockquote cite="https://www.google.com.br/books/edition/HTML_Forma%C3%A7%C3%A3o_B%C3%A1sica/VveQzgEACAAJ?hl=pt-BR"> HTML é a linguagem de programação que alimenta a web. E, tal como qualquer outra linguagem, uma vez dominada, pode começar a criar o seu próprio conteúdo, quer se trate de um website simples ou de aplicações web mais complexas. </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hypertext Markup sheetp">HTLM</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou apredendo a criar coisa em HTML.</bdo></p>
+
+    <h1>Trabalhando com Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="i"> <!-- 1 A a I i -->
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Listas não Ordenadas</h2>
+    <ul type="square"> <!-- disc circle square -->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+    <h2>Lista de Definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interatividade de um site.</dd>
+    </dl>
+</body>
+</html>
